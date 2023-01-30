@@ -1,94 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--Responsive screen-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Image with the title-->
-    <link rel="shortcut icon" type="image/png" href="img/World_img.png" sizes="32x32" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="img/World_img.png"
+      sizes="32x32">
     <!--Normalize CSS-->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"> 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet">
     <!--External CSS file-->
     <link rel="stylesheet" type="text/css" href="css/style.production.css">
     <title>Contact - Swethaa Sundar</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-    <div>
+      <div>
         <!--Add logo-->
-        <a href="index.html"><img src="img/swethaa.png" alt="Swethaa Sundar" class="page-header__item" sizes="16x16"></a>
-    </div>
-    <br>
-    <nav class="menuitem">
-        <a class="menuitem__list" href="index.html" role="menuitem">Home</a>
-        <a class="menuitem__list" href="about.html" role="menuitem" aria-label="about Swethaa">About</a>
-        <a class="menuitem__list" href="work.html" role="menuitem">Works</a>
-        <a class="menuitem__list" href="contact.html" role="menuitem">Contact</a>
-    </nav>
+        <a href="index.html"
+          ><img
+            src="img/swethaa.png"
+            alt="Swethaa Sundar"
+            class="page-header__item"></a>
+      </div>
+      <br >
+      <nav class="menuitem">
+        <a class="menuitem__list" href="index.html">Home</a>
+        <a class="menuitem__list"
+          href="about.html">About</a>
+        <a class="menuitem__list" href="work.html" >Works</a>
+        <a class="menuitem__list" href="contact.html">Contact</a>
+      </nav>
     </header>
     <main>
-        <h1 id="contact">Contact</h1>
-        <div class="contact">
+      <h1 id="contact">Contact</h1>
+      <div class="contact">
         <div class="address">
-        Swethaa Sundar<br>
-        Munich, Germany<br>
-        Tel : <a href="049 123456789" aria-label="tel:049123456789">+49 123456789</a> <br>
-        E-mail : <a href="mailto:example@example.com">example@example.com</a>
+          Swethaa Sundar<br>
+          Munich, Germany<br>
+          Tel :
+          <a href="049123456789" aria-label="tel:049123456789"
+            >+49123456789</a
+          >
+          <br>
+          E-mail :
+          <a href="mailto:example@example.com" aria-label="example@example.com"
+            >example@example.com</a
+          >
         </div>
         <!--Contact form-->
         <div id="contform">
-        <h2>Contact Form</h2>
-        <form action="/login-form-action" method="post">
+          <h2>Contact Form</h2>
+          <form action="/login-form-action" method="post">
             <table>
-                <tr>
-                    <td><label for="FirstName">First Name</label></td>
-                    <td><input type="text" id="FirstName" name="firstname" placeholder="First Name" required></td>
-                </tr>
-                <tr>
-                    <td> <label for="LastName">Last Name</label></td>
-                    <td><input type="text" id="LastName" name="lastname" placeholder="Last Name" required></td>
-                </tr>
-                <tr>
-                    <td><label for="Telephone">Telephone</label></td>
-                    <td><input type="text" id="Telephone" name="telephone" placeholder="Telephone"></td>
-                </tr>
-                <tr>
-                    <td><label for="email">E-mail</label></td>
-                    <td><input type="email" id="email" name="user_email" placeholder="Email Address" required></td>
-                </tr>
-                <tr>
-                    <td><label for="Message">Message</label></td>
-                    <td><textarea id="Message" placeholder="Message" maxlength="500" required></textarea></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><button class="submit" type="submit">Send Message</button></td>
-                </tr>
+              <tr>
+                <td>
+                  <label for="FirstName" aria-label="firstname"
+                    >First Name</label
+                  >
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="FirstName"
+                    name="firstname"
+                    placeholder="First Name"
+                    required>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="LastName" aria-label="lastname">Last Name</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="LastName"
+                    name="lastname"
+                    placeholder="Last Name"
+                    required>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="Telephone" aria-label="telephone"
+                    >Telephone</label
+                  >
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="Telephone"
+                    name="telephone"
+                    placeholder="Telephone">
+                </td>
+              </tr>
+              <tr>
+                <td><label for="email" aria-label="email">E-mail</label></td>
+                <td>
+                  <input
+                    type="email"
+                    id="email"
+                    name="user_email"
+                    placeholder="Email Address"
+                    required>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="Message" aria-label="message">Message</label>
+                </td>
+                <td>
+                  <textarea
+                    id="Message"
+                    placeholder="Message"
+                    maxlength="500"
+                    required
+                  ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <button
+                    class="submit"
+                    type="submit"
+                    aria-label="submit button"
+                  >
+                    Send Message
+                  </button>
+                </td>
+              </tr>
             </table>
-        </form>
-    </div>
-</div>
+          </form>
+        </div>
+      </div>
     </main>
     <footer class="footer">
-        <p>Find me on</p>
-        <div>
-            <!-- Github logo -->
-            <img src="Img/github-square-grey-logo-15997.svg" alt="Github"width="40" height="40">
-            <!-- Linkedin logo -->
-            <img src="Img/linkedin-square-blue-logo-15978.svg" alt="Linkedin" width="40" height="40">
-            <!-- Twitter logo -->
-            <img src="Img/twitter-square-blue-logo-15977.svg" alt="Twitter"width="40" height="40">
-        </div>
-</footer>
-<script src="js/tota11y.min.js"></script>
-</body>
+      <p>Find me on</p>
+      <div>
+        <!-- Github logo -->
+        <img
+          src="Img/github-square-grey-logo-15997.svg"
+          alt="Github"
+          width="40"
+          height="40"
+          aria-label="github">
+        <!-- Linkedin logo -->
+        <img
+          src="Img/linkedin-square-blue-logo-15978.svg"
+          alt="Linkedin"
+          width="40"
+          height="40"
+          aria-label="linkedin">
+        <!-- Twitter logo -->
+        <img
+          src="Img/twitter-square-blue-logo-15977.svg"
+          alt="Twitter"
+          width="40"
+          height="40"
+          aria-label="twitter">
+      </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+  </body>
 </html>
