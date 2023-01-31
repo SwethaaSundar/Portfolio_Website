@@ -70,10 +70,12 @@ header {
   align-items: center;
 }
 .main__item {
-  width: 350px;
+  width: 300px;
+  height: 300px;
   margin-right: 3em;
   border-style: none;
-  border-radius: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 div {
   margin-top: 0;
@@ -97,6 +99,10 @@ footer {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+.box{
+  inline-size: 500px;
+  word-break: break-all;
 }
 /* About page */
 h1#about {
@@ -134,15 +140,18 @@ p#overview {
   font-size: 25px;
 }
 .projlist {
-  padding-left: 5em;
+  /*padding-left: 5em;*/
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr var(--size-20) 1fr var(--size-20) 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: var(--size-20);
+  margin: 0 auto;
+  width: 90%;
 }
 .projlist__item {
   background-color: #ffffdf;
+  padding: 20px;
 }
 /* Contact page */
 h1#contact {
